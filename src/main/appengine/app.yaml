@@ -1,0 +1,15 @@
+runtime: java
+env: flex
+
+handlers:
+  - url: /.*
+    script: auto
+
+manual_scaling:
+  instances: 1
+
+runtime_config:
+  operating_system: "ubuntu22"
+  runtime_version: "17"
+
+service_account: 843621937115-compute@developer.gserviceaccount.com
