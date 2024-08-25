@@ -28,4 +28,6 @@ public class PersonEntity {
     @Column(name = "lastUpdateDate")
     @Temporal(TemporalType.TIMESTAMP)
     private Timestamp lastUpdateDate;
+    @Column(name = "userType", length = 50)
+    private String userType;
 }
